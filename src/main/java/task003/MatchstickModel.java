@@ -4,8 +4,8 @@ import java.util.List;
 
 public class MatchstickModel {
     public int theMinimumNumberOfMatchesToImplementNCubes(int n) {
-        List<Integer> onWhichCubeItIsAdvisableToUseFiveMatches = List.of(4, 6, 7, 10, 11, 14, 15, 17, 20, 21, 23);
-        List<Integer> onWhichCubeItIsAdvisableToUseThreeMatches = List.of(8, 12, 16, 18, 22, 24);
+        List<Integer> onWhichCubeItIsAdvisableToUseFiveMatches = List.of(4, 6, 7, 10, 11, 14, 15, 17, 20, 21, 23, 25);
+        List<Integer> onWhichCubeItIsAdvisableToUseThreeMatches = List.of(8, 12, 16, 18, 22, 24, 26, 27);
         int result = 0;
         for (int i = 1; i <= n; i++) {
             if (i == 1) {
